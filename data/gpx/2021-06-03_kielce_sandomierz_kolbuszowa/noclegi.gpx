@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="GPS Visualizer Sandbox https://www.gpsvisualizer.com/draw/" xmlns="http://www.topografix.com/GPX/1/1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd">
+	<wpt lat="50.6612842" lon="21.0520792">
+		<name>Nocleg na dziko</name>
+		<sym>Triangle, Green</sym>
+	</wpt>
+	<wpt lat="50.6797756" lon="21.753037">
+		<name>Camping Browarny</name>
+		<sym>Triangle, Green</sym>
+	</wpt>
+	<wpt lat="50.5121544" lon="22.1787116">
+		<name>Dom rodziców Eweliny</name>
+		<sym>Triangle, Green</sym>
+	</wpt>
+</gpx>

@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="GPS Visualizer Sandbox https://www.gpsvisualizer.com/draw/" xmlns="http://www.topografix.com/GPX/1/1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd">
+	<wpt lat="53.9169066" lon="14.2550511">
+		<name>01 - Relax Camping</name>
+		<sym>Triangle, Green</sym>
+	</wpt>
+	<wpt lat="53.972947" lon="14.6301654">
+		<name>MammaMia Camping</name>
+		<sym>Triangle, Green</sym>
+	</wpt>
+	<wpt lat="54.0841437" lon="15.0246808">
+		<name>Nocleg u Pawła Małaszko</name>
+		<sym>Triangle, Green</sym>
+	</wpt>
+	<wpt lat="54.2947483" lon="16.1705071">
+		<name><![CDATA[Glamping "Osada nad Wodą"]]></name>
+		<sym>Triangle, Green</sym>
+	</wpt>
+	<wpt lat="54.576673" lon="16.855035">
+		<name>Pole namiotowe, ul. Polna 8A, www.nadmorzem.net</name>
+		<sym>Triangle, Green</sym>
+	</wpt>
+	<wpt lat="54.7620636" lon="17.5653228">
+		<name>Camping Leśny</name>
+		<sym>Triangle, Green</sym>
+	</wpt>
+	<wpt lat="54.7968288" lon="18.4064703">
+		<name><![CDATA[Pole namiotowe "Fala"]]></name>
+		<sym>Triangle, Green</sym>
+	</wpt>
+	<wpt lat="54.3684143" lon="18.7306488">
+		<name><![CDATA[Camping "Stogi" nr 218]]></name>
+		<sym>Triangle, Green</sym>
+	</wpt>
+	<wpt lat="54.3770602" lon="19.4330817">
+		<name>Dobra Nocka</name>
+		<sym>Triangle, Green</sym>
+	</wpt>
+	<wpt lat="54.2379906" lon="20.1235253">
+		<name>Hotelik Hermes</name>
+		<sym>Triangle, Green</sym>
+	</wpt>
+	<wpt lat="54.1029183" lon="20.6785226">
+		<name>Agroturystyka Ostrów Kierwiński</name>
+		<sym>Triangle, Green</sym>
+	</wpt>
+	<wpt lat="54.2115733" lon="21.3919392">
+		<name>Agroturystyka w Pastwiskach</name>
+		<sym>Triangle, Green</sym>
+	</wpt>
+</gpx>

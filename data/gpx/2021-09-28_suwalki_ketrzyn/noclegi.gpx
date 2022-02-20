@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="GPS Visualizer Sandbox https://www.gpsvisualizer.com/draw/" xmlns="http://www.topografix.com/GPX/1/1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd">
+	<wpt lat="54.2771202" lon="22.8049913">
+		<name>Agroturystyka u Danusi</name>
+		<sym>Triangle, Green</sym>
+	</wpt>
+	<wpt lat="54.314273" lon="22.4126351">
+		<name>Trzy Świerki</name>
+		<sym>Triangle, Green</sym>
+	</wpt>
+	<wpt lat="54.1308653" lon="21.6783616">
+		<name>Pole namiotowe w Sztynorcie</name>
+		<sym>Triangle, Green</sym>
+	</wpt>
+	<wpt lat="53.7998929" lon="21.567113">
+		<name>Pole namiotowe Regina i Bogusław Jagłowscy</name>
+		<sym>Triangle, Green</sym>
+	</wpt>
+</gpx>
