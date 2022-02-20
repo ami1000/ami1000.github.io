@@ -1,8 +1,8 @@
 /**
  * Configuration
  */
-var gpxDataLocation = 'https://zielonebryle.pl/map/data/gpx'
-var imageDataLocation = 'https://zielonebryle.pl/map/data/image'
+var gpxDataLocation = 'https://zielonebryle.pl/data/gpx'
+var imageDataLocation = 'https://zielonebryle.pl/data/image'
 L.mapbox.accessToken = 'pk.eyJ1IjoibWFwYm94IiwiYSI6ImNpejY4NXVycTA2emYycXBndHRqcmZ3N3gifQ.rJcFIG214AriISLbB6B5aw'
 var mapLayer = 'mapbox://styles/mapbox/light-v10'
 var mapHtmlContainerId = 'map'
