@@ -50,19 +50,31 @@ function loadFolderAsLayer(folder, gpxFiles) {
     // A parent layer for all day layers of a single journey
     var journeyTrackLayer = new L.FeatureGroup()
     // Set the base style for all GPX tracks
-    var baseGpxLayer = L.geoJson(null, {
+    var gpxTrackBorderLayer = L.geoJson(null, {
         style: function(feature) {
             return {
-                color: defaultTrackColor,
+                color: '#000000',
                 opacity: 1,
                 weight: 6
             }
         }
     })
+    var gpxTrackFillingLayer = L.geoJson(null, {
+        style: function(feature) {
+            return {
+                color: 'rgb(60,240,120)',
+                opacity: 1,
+                weight: 3
+            }
+        }
+    })
+
     // Load all day GPX files of a single journey
     for (var fileIndex = 0; fileIndex < gpxFiles.length; fileIndex += 1) {
-        var dayTrackLayer = omnivore.gpx(gpxDataLocation + '/' + folder + '/' + gpxFiles[fileIndex], null, baseGpxLayer)
-        journeyTrackLayer.addLayer(dayTrackLayer)
+        var dayTrackBorderLayer = omnivore.gpx(gpxDataLocation + '/' + folder + '/' + gpxFiles[fileIndex], null, gpxTrackBorderLayer)
+        journeyTrackLayer.addLayer(dayTrackBorderLayer)
+        var dayTracFillingLayer = omnivore.gpx(gpxDataLocation + '/' + folder + '/' + gpxFiles[fileIndex], null, gpxTrackFillingLayer)
+        journeyTrackLayer.addLayer(dayTracFillingLayer)
     }
     // Mouse over the journey track behavior
     journeyTrackLayer.on('mouseover', function(e) {
